@@ -1,0 +1,10 @@
+Tên, lông, lông vũ, trứng, sữa, không khí, thủy sản, ăn thịt,
+ răng, xương sống, thở, độc, vây, chân, đuôi, dưới nước, loại
+chân: {0,2,4,5,6,8}
+loại: 	1: thú
+		2: chim
+		3: rùa
+		4: cá
+		5: lưỡng cư
+		6: côn trùng
+		7: vật biển

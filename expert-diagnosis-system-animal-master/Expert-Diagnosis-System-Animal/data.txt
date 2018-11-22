@@ -1,0 +1,152 @@
+aardvark: lợn đất(thú ăn kiến)
+antelope: linh dương
+bass:
+bear: gấu
+boar: heo rừng
+buffalo: trâu
+calf: bê
+carp: cá chép
+catfish: cá trê
+cavy:
+cheetah: báo gêpa
+chicken: gà trống
+chub: cá bóng
+clam: sò
+scrab: cua
+crayfish: tôm càng
+crow: quạ
+deer: nai
+dogfish: cá nhám góc
+dolphin: cá heo mỏ nhọn
+dove: chim bồ câu
+duck: vịt
+elephant: voi
+flamingo: chim hồng hạc
+flea: bọ chét
+frog: ếch
+frog:
+fruitbat: dơi
+giraffe: hươu cao cổ
+girl: con gái
+gnat: muỗi
+goat: dê
+gorilla: đười ươi
+seagull: chim hải âu (mòng biển)
+haddock: cá tuyết
+hamster: chuột bạch
+hare: thỏ rừng
+hawk: chim ưng
+herring: cá trích
+honeybee: ong mật
+housefly: ruồi
+kiwi: chim châu Úc
+ladybird: bọ rùa
+lark: chim sơn ca
+leopard: beo
+lion: sư tử
+lobster: tôm hùm
+lynx: mèo rừng
+mink: chồn
+mole: chuột chủi
+mongoose: cầy lỏn
+moth: sâu bướm
+newt:
+octopus: bạch tuộc
+opossum: chồn opossum
+oryx: dê rừng
+ostrich: đà điểu
+parakeet: vẹt
+penguin: chim cánh cụt
+pheasant: gà lôi
+pike: cá chó
+piranha:
+pitviper: đừng search
+platypus: thú mỏ vịt
+polecat:
+pony: ngựa con
+porpoise: cá heo mỏ tròn
+puma: cọp Mỹ
+pussycat:
+raccoon: gấu trúc
+reindeer: tuần lộc
+rhea:
+scorpion: bọ cạp
+seahorse: cá ngựa
+seal: hải cẩu
+sealion: sư tử biển
+seasnake:
+seawasp: sứa
+skimmer:
+skua:
+slowworm: sâu đi chậm
+slug: sên
+sole: cá lưỡi trâu
+sparrow: chim sẻ
+squirrel: sóc
+starfish: sao biển
+stingray: cá đuối gai độc
+swan: thiên nga
+termite: mối mọt
+toad: cóc
+tortoise: rùa
+tuatara:
+tuna: cá ngừ
+vampire: ma cà rồng
+vole: chuột đồng
+vulture: kền kền
+wallaby: chuột túi
+wasp: ong vò vẻ
+wolf: sói
+worm: sâu
+wren: chim tiêu
+zebra: ngựa vằn
+lioness: sư tử cái
+hyena: linh cẩu
+gnu: linh dương đầu bò
+baboon: khỉ đầu chó
+rhinoceros: tê giác
+owl: cú mèo
+eagle: chim đại bàng
+woodpecker: chim gõ kiến
+peacock: công trống
+falcon: chim ưng
+shellfish: ốc
+jellyfish: sứa
+squid: mực ống
+coral: san hô
+chipmunk: sóc chuột
+polar bear: gấu Bắc Cực
+beaver: hải ly
+porcupine: nhím
+skunk: chồn hôi
+koala bear: gấu túi
+sheep: cừu
+cat: mèo
+dog: chó
+camel: lạc đà
+crocodile: cá sấu
+cow: bò
+horse: ngựa
+pig: lợn
+goose: ngỗng
+fox: cáo
+mouse: chuột
+kangaroo: chuột túi
+ant: kiến
+dragonfly: chuồn chuồn
+grasshopper: châu chấu
+turtle: rùa
+monkey: khỉ
+rabbit: thỏ
+hippo: hà mã
+fly: ruồi
+mosquito: muỗi
+butterfly: bướm
+praying mantis: bọ ngựa
+dinosaurs: khủng long
+chameleon: tắc kè hoa
+dragon: rồng
+lizard: thằn lằn
+lamb: cừu con
+donkey: lừa
+snake: rắn

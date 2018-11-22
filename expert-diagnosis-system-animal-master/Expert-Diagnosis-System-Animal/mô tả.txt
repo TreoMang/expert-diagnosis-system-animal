@@ -1,0 +1,33 @@
+"Thú mỏ vịt" là động vật có lông, không có răng, có xương, có đuôi, có trứng, 
+	không có lông vũ, không biết bay, ở dưới nước, không có vây, có 4 chân, ăn thịt
+"Gấu" là động vật có lông, có răng, có xương, không có đuôi, không có trứng, 
+	không có lông vũ, không biết bay, không ở dưới nước, không có vây, có 4 chân, ăn thịt
+"Báo" là động vật có lông, có răng, có xương, có đuôi, không có trứng, 
+	không có lông vũ, không biết bay, không ở dưới nước, không có vây, có 4 chân, ăn thịt
+"Khỉ đột" là động vật có lông, có răng, có xương, không có đuôi, không có trứng, 
+	không có lông vũ, không biết bay, không ở dưới nước, không có vây, có 2 chân, không ăn thịt
+"Voi" là động vật có lông, có răng, có xương, có đuôi, không có trứng,
+	không có lông vũ, không biết bay, không ở dưới nước, không có vây, có 4 chân, không ăn thịt
+"Cá heo" là động vật không có lông, có răng, có xương, có đuôi, không có trứng,
+	không có lông vũ, không biết bay, ở dưới nước, có vây, không có chân, ăn thịt
+"Bạch tuộc" là động vật không có lông, không có răng, không có xương, không có đuôi, có trứng,
+	không có lông vũ, không biết bay, ở dưới nước, không có vây, có 8 chân, ăn thịt
+"Ếch" là động vật không có lông, có răng, có xương, không có đuôi, có trứng,
+	không có lông vũ, không biết bay, ở dưới nước, không có vây, có 4 chân, ăn thịt
+"Rùa" là động vật không có lông, không có răng, có xương, có đuôi, có trứng,
+	không có lông vũ, không biết bay, ở dưới nước, không có vây, có 4 chân, không ăn thịt
+"Bọ rùa" là động vật không có lông, không có răng, không có xương, không có đuôi, có trứng,
+	không có lông vũ, biết bay, không ở dưới nước, không có vây, có 6 chân, ăn thịt
+"Tôm" là động vật không có lông, không có răng, không có xương, có đuôi, có trứng,
+	không có lông vũ, không biết bay, ở dưới nước, không có vây, có 6 chân, ăn thịt
+"Rắn" là động vật không có lông, có răng, có xương, có đuôi, có trứng,
+	không có lông vũ, không biết bay, ở dưới nước, không có vây, không có chân, ăn thịt
+"Vịt" là động vật không có lông, không có răng, có xương, có đuôi, có trứng,
+	có lông vũ, biết bay, ở dưới nước, không có vây, có 2 chân, ăn thịt
+"Chim cánh cụt" là động vật không có lông, không có răng, có xương, có đuôi, có trứng,
+	có lông vũ, không biết bay, ở dưới nước, không có vây, có 2 chân, ăn thịt
+"Cá chép" là động vật không có lông, có răng, có xương, có đuôi, có trứng,
+	không có lông vũ, không biết bay, ở dưới nước, có vây, không có chân, ăn thịt
+"Giun đất" là động vật không có lông, không có răng, không có xương, có đuôi, có trứng,
+	không có lông vũ, không biết bay, không ở dưới nước, không có vây, không có chân, không ăn thịt
+	
