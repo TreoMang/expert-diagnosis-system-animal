@@ -1,20 +1,16 @@
-from pyknow import *
-class Good_weather_3(KnowledgeEngine):
-    @Rule(Fact("it's nice and warm"), salience=1)
-    def _2(self):
-        print("Let's go for a swim in the sea!")
+from tkinter import * #If you get an error here, try Tkinter not tkinter
 
-    @Rule(Fact(MATCH.factstringvalue & "it's sunny"), salience=10)
-    def _3(self,factstringvalue):
-        print("given that ..." + factstringvalue + " ... I conclude it's nice and warm.")
-        self.declare(Fact("it's nice and warm"))
+def Dialog1Display():
+    Dialog1 = Toplevel(height=100, width=100) #Here
 
-    @Rule(AS.x << Fact("it's nice and warm"), Fact("winter"), salience=0)
-    def _winter(self,x):
-        self.retract(x)
-        print("Never mind, it's winter.")
+def Dialog2Display():
+    Dialog2 = Toplevel(height=1000, width=1000) #Here
 
-engine = Good_weather_3()
-engine.reset()
-engine.declare(Fact("Le Thi Thuy Trang"))
-engine.run()
+master=Tk()
+
+Button1 = Button(master, text="Small", command=Dialog1Display)
+Button2 = Button(master, text="Big", command=Dialog2Display)
+
+Button1.pack()
+Button2.pack()
+master.mainloop()

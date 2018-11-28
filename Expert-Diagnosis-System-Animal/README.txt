@@ -1,1 +1,0 @@
-run program: python animal.py

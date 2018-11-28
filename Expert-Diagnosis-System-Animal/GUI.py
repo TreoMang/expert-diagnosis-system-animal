@@ -1,5 +1,6 @@
-from tkinter import Tk, Frame, BOTH, X, IntVar, LEFT, W
-from tkinter.ttk import Button, Label, Radiobutton, Checkbutton
+from tkinter import Tk, Frame, BOTH, X, IntVar
+from tkinter.ttk import Button, Label, Radiobutton
+import animal
 class Example(Frame):
     def __init__(self, parent):
         Frame.__init__(self, parent, background="white")
@@ -19,7 +20,7 @@ class Example(Frame):
             "Hair","Feathers","Eggs","Airborne","Domestic","Predator",
             "Toothed","Fins","0 Leg""2 Legs","4 Legs","6 Legs","8 Legs","Tail"
         ]
-        
+
         # cb = Checkbutton(self,)
         # frame1 = Frame()
         # frame1.pack(fill=X)
@@ -34,54 +35,73 @@ class Example(Frame):
         # Checkbutton(self, text = "Răng",command = lambda: self.onClick(7)).place(x = 50, y = 230)
         # Checkbutton(self, text = "Vây", command = lambda: self.onClick(8)).place(x = 50, y = 260)
         # Checkbutton(self, text = "Chân", command = lambda: self.onClick(9)).place(x = 50, y = 290)
+        label = Label(self,text="Chọn những đặc điểm của loài vật bạn muốn biết", font = "Helvetica 12 bold italic")
+        label.pack(fill = X)
 
-        label1 = Label(self,text="Chọn những đặc điểm của loài vật bạn muốn biết")
-        label1.pack(fill = X)
-        Radiobutton(self,text = "Có",command = lambda: self.onClick(1)).place(x = 50, y = 50)
-        Radiobutton(self,text = "Không",command = lambda: self.onClick(1)).place(x = 50, y = 70)
-        Radiobutton(self,text = "Không biết",command = lambda: self.onClick(1)).place(x = 50, y = 90)
+        v = []
+        label = []
+        for i in range(11):
+            v.append(IntVar())
+            label.append(Label())
+        self.question = {
+            1 : "1. Nó có lông không ?",
+            2 : "2. Nó có răng không ?",
+            3 : "3. Nó có xương không ?",
+            4 : "4. Nó có đuôi không ?",
+            5 : "5. Nó có đẻ trứng không ?",
+            6 : "6. Nó có lông vũ không ?",
+            7 : "7. Nó có thể bay không ?",
+            8 : "8. Nó có thể sống dưới nước không ?",
+            9 : "9. Nó có vây không ?",
+            10 : "10. Nó có mấy chân ?",
+            11 : "11. Nó có ăn thịt không ?"
+        }
 
-        # label2 = Label(self,text = "1. Nó có lông không ?")
-        # label2.pack(fill = X)
-        # Radiobutton(self,text = "Có",command = lambda: self.onClick(1)).place(x = 50, y = 50)
+        j = 50
+        xx = 50
+        for i in range(11):
+            if i == 6:
+                xx = 300
+                j = 50
+            if i == 10:
+                j = j + 60
+            label[i] = Label(self,text = self.question[i+1], foreground = "blue", font ="Helvetica 10 bold italic")
+            label[i].place(x = xx, y = j -20)
+            j = j + 80
 
-        # label3 = Label(self,text = "2. Nó có lông vũ không ?")
-        # label3.pack(fill = X)
+        j = 50
+        xx = 50
+        for i in range(11):
+            if i == 6:
+                xx = 300
+                j = 50
+            if i == 9:
+                Radiobutton(self, value=0, text="0", variable=v[i]).place(x=xx,y=j)  # , command=lambda: self.onClick(1,1)
+                Radiobutton(self, value=2, text="2", variable=v[i]).place(x=xx, y=j + 20)
+                Radiobutton(self, value=4, text="4", variable=v[i]).place(x=xx, y=j + 40)
+                Radiobutton(self, value=6, text="6", variable=v[i]).place(x=xx, y=j + 60)
+                Radiobutton(self, value=8, text="8", variable=v[i]).place(x=xx, y=j + 80)
+                j = j + 140
+                continue
 
-        # label4 = Label(self,text = "3. Nó có đẻ trứng không ?")
-        # label4.pack(fill = X)
-
-        # label5 = Label(self,text = "4. Nó có thể bay không ?")
-        # label5.pack(fill = X)
-
-        # label6 = Label(self,text = "5. Nó có thể sống dưới nước không ?")
-        # label6.pack(fill = X)
-
-        # label7 = Label(self,text = "6. Nó có ăn thịt không ?")
-        # label7.pack(fill = X)
-
-        # label8 = Label(self,text = "7. Nó có răng không ?")
-        # label8.pack(fill = X)
-
-        # label9 = Label(self,text = "8. Nó có thể xương không ?")
-        # label9.pack(fill = X)
-
-        # label5 = Label(self,text = "9. Nó có vây không ?")
-        # label5.pack(fill = X)
-
-        # label5 = Label(self,text = "10. Nó có mấy chân ?")
-        # label5.pack(fill = X)
+            Radiobutton(self, value = 1, text="Có", variable  = v[i]).place(x=xx, y= j ) #, command=lambda: self.onClick(1,1)
+            Radiobutton(self, value = 0, text="Không", variable  = v[i]).place(x=xx, y=j+20) #, command=lambda: self.onClick(1,0)
+            j = j + 80
 
 
-        button = Button(self,text = "Done",command = self.quit)
+        #Sau khi tick het thi an Button OK hay gi do, roi chay if else cho moi variable, xet neu value la 1, 2 hay 3 thi thuc hien
+        # cau lenh nao! = )) oK nhe :3
+
+        button = Button(self,text = "Done",command = lambda : self.onClick(v,button))
         button.pack(fill = X)
-        button.place(x = 50, y = 320)
+        button.place(x = 50, y = 500)
         
-    def onClick(self,key):
-        for k, attribute in enumerate(self.attributes):
-            if k == (key-1):
-                print(attribute)
-                break
+    def onClick(self,value,button):
+        p = animal.Process(value)
+
+        label = Label(self,text = p.call_again(),foreground = "orange", font = "Helvetica 18 italic").place(x = 50, y = 545)
+
+
 
             
     
@@ -89,6 +109,6 @@ class Example(Frame):
 
 
 root = Tk()
-root.geometry("500x400+300+300")
+root.geometry("550x600+300+100")
 app = Example(root)
 root.mainloop()
