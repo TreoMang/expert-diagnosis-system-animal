@@ -8,10 +8,13 @@ class Characteristics(Fact):
 class Diagnosis_animals(KnowledgeEngine):
     N = 20
     M = 10
+    # def __init__(self):
+    #     self.name = ' '
     # print(bear)
     @Rule(Characteristics(name = 'platypus'))
     def platypus(self):
         self.name = 'Thú mỏ vịt'
+        # self.func_return('Thú mỏ vịt')
         # quit()
 
     @Rule(AND(Characteristics(hair=1),
@@ -335,6 +338,7 @@ class Diagnosis_animals(KnowledgeEngine):
         AND(Characteristics(hair = 1),Characteristics(eggs = 1)),
         AND(Characteristics(hair = 1), Characteristics(teethed = 0))),salience=M)
     def maybePlatypus(self):
+
         self.declare(Characteristics(feathers = 0))
         self.declare(Characteristics(eggs = 1))
         self.declare(Characteristics(teethed = 0))
@@ -445,9 +449,10 @@ class Diagnosis_animals(KnowledgeEngine):
         self.declare(Characteristics(backbone = 0))
         self.declare(Characteristics(airborne = 0))
 
-    def func_return(self):
-        return self.name
 
+    def func_return(self):
+        # self.name = name
+        return self.name
 
 class Process(Fact):
     def __init__(self,value):
